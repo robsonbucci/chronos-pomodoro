@@ -5,10 +5,16 @@ import { TimerIcon } from "lucide-react";
 function App() {
 	return (
 		<>
-			<Heading>Página inicial 
-
-				<button><TimerIcon/></button>
+			<Heading>
+				Página inicial
+				<button type="button">
+					<TimerIcon />
+				</button>
+				<button type="button">
+					<TimerIcon />
+				</button>
 			</Heading>
+
 			<p>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
 				provident nemo magni impedit, optio perspiciatis officiis voluptatibus
